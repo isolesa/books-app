@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\BooksDB\bin\Debug\BooksDB.dacpac
+C:\Users\User\source\repos\BooksDB\bin\Debug\BooksDB.dll
+C:\Users\User\source\repos\BooksDB\bin\Debug\BooksDB.pdb
+C:\Users\User\source\repos\BooksDB\obj\Debug\BooksDB.dll
+C:\Users\User\source\repos\BooksDB\obj\Debug\BooksDB.pdb
+C:\Users\User\source\repos\BooksDB\obj\Debug\BooksDB.sqlprojAssemblyReference.cache

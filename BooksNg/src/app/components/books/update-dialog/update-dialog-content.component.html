@@ -1,0 +1,45 @@
+<h2 mat-dialog-title>{{ data.title }}</h2>
+<mat-dialog-content class="mat-typography">
+    <div class="container" *ngIf="!post; else forminfo" novalidate>
+        <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form">
+            <mat-form-field class="form-element">
+                <input matInput placeholder="Title" formControlName="title">
+                <mat-error *ngIf="!formGroup.controls['title'].valid && formGroup.controls['title'].touched">
+                    {{ getError() }}
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="form-element">
+                <input matInput placeholder="Language" formControlName="language">
+                <mat-error *ngIf="!formGroup.controls['language'].valid && formGroup.controls['language'].touched">
+                    {{ getError() }}
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="form-element">
+                <input matInput placeholder="Published" formControlName="publishedAt">
+                <mat-error *ngIf="!formGroup.controls['publishedAt'].valid && formGroup.controls['publishedAt'].touched">
+                    {{ getError() }}
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="form-element">
+                <textarea matInput placeholder="Author" matTextareaAutosize matAutosizeMinRows="2"
+                    matAutosizeMaxRows="5" formControlName="author"></textarea>
+                <mat-error
+                    *ngIf="!formGroup.controls['author'].valid && formGroup.controls['author'].touched">
+                    {{ getError() }}
+                </mat-error>
+            </mat-form-field>
+            <div class="form-element">
+                <mat-dialog-actions align="end">
+                    <button mat-button mat-dialog-close>Cancel</button>
+                    <button mat-button [mat-dialog-close]="true" type="submit" class="button"
+                        [disabled]="!formGroup.valid">Update</button>
+                </mat-dialog-actions>
+            </div>
+        </form>
+    </div>
+</mat-dialog-content>
+
+
+<!-- Copyright 2019 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

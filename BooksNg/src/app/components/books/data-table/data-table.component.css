@@ -1,0 +1,11 @@
+table, .mat-paginator {
+  width: 80%;
+  margin: 0 auto;
+}
+.mat-elevation-z8{
+  min-height:76vh;
+  padding: 15vh 0 0 0;
+}
+.more{
+  text-align: right;
+}

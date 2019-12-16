@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\User\source\repos\Application\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\User\source\repos\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\User\source\repos\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.json
+C:\Users\User\source\repos\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.dev.json
+C:\Users\User\source\repos\Application\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\User\source\repos\Application\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\User\source\repos\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\User\source\repos\Application\bin\Debug\netcoreapp3.1\BooksDB.dll
+C:\Users\User\source\repos\Application\bin\Debug\netcoreapp3.1\BooksDB.pdb
+C:\Users\User\source\repos\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
